@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Brilliarcher</title>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300' rel='stylesheet' type='text/css'>	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel=
+	'stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+	<link href="theCss.css" rel="stylesheet" type="text/css">
+	<script src="theBML.javascript" type="text/javascript"></script>
+	<link rel="icon" 
+      type="image/png" 
+      href="favicon.ico">
+</head>
+
+<body>
+	<div id="header-wrap">
+		<h1>Brilliarcher</h1>
+	</div>
+
+	<div id="subtitle-wrap">
+		A Brilliant Searcher
+	</div>
+
+	<div id="container">
+		<h4>The bookmarklet</h4>
+
+		<p id="desc">Click the button below to try.<br>
+		Drag it to your bookmarklet var to install.<br>
+		<a href="http://www.youtube.com/watch?v=Kdgt1ZHkvnM">mobile/tablet?</a></p><a href=
+		"javascript:(function()%7Bvar%20theOriginalString%3Bvar%20theDividedString%3Bvar%20theTestSplit%3Bvar%20theQuestionType%3Bvar%20theSearchingWebsite%3D%22none%22%3Bvar%20count%3Bvar%20outerCount%3Bvar%20innerCount%3Bvar%20theDoubleFlag%3Bvar%20theLibNumber%3D-1%3Bvar%20theSearchingURL%3Bvar%20puttingValue%3D%22%22%3Bvar%20theSearchingWord%3Dnew%20Array()%3Bvar%20currentPageFlag%3Dfalse%3Bvar%20currentURL%3Bvar%20theSiteNumber%3Bvar%20NWTypeLib%3Dnew%20Array()%3Bvar%20translatedFrom%3D%22none%22%3Bvar%20translatedTo%3D%22none%22%3Bvar%20translatedFromNumber%3D0%3Bvar%20translatedToNumber%3Bvar%20NWTypeLib%3Dnew%20Array()%3BNWTypeLib%5B0%5D%3D%22definition%22%3BNWTypeLib%5B1%5D%3D%22synonym%22%3BNWTypeLib%5B2%5D%3D%22synonyms%22%3BNWTypeLib%5B3%5D%3D%22video%22%3BNWTypeLib%5B4%5D%3D%22videos%22%3BNWTypeLib%5B5%5D%3D%22picture%22%3BNWTypeLib%5B6%5D%3D%22pictures%22%3BNWTypeLib%5B7%5D%3D%22photo%22%3BNWTypeLib%5B8%5D%3D%22photos%22%3Bvar%20NWTypeGroupLib%3Dnew%20Array()%3BNWTypeGroupLib%5B0%5D%3D%22http://dictionary.reference.com/browse/puttingValue%3Fs%3Dt%22%3BNWTypeGroupLib%5B1%5D%3D%22http://thesaurus.com/browse/puttingValue%22%3BNWTypeGroupLib%5B2%5D%3D%22http://thesaurus.com/browse/puttingValue%22%3BNWTypeGroupLib%5B3%5D%3D%22http://www.youtube.com/results%3Fsearch_query%3DputtingValue%22%3BNWTypeGroupLib%5B4%5D%3D%22http://www.youtube.com/results%3Fsearch_query%3DputtingValue%22%3BNWTypeGroupLib%5B5%5D%3D%22https://www.google.com/search%3Fhl%3Den%26site%3Dimghp%26tbm%3Disch%26biw%3D1440%26bih%3D693%26q%3DputtingValue%22%3BNWTypeGroupLib%5B6%5D%3D%22https://www.google.com/search%3Fhl%3Den%26site%3Dimghp%26tbm%3Disch%26biw%3D1440%26bih%3D693%26q%3DputtingValue%22%3BNWTypeGroupLib%5B7%5D%3D%22https://www.google.com/search%3Fhl%3Den%26site%3Dimghp%26tbm%3Disch%26biw%3D1440%26bih%3D693%26q%3DputtingValue%22%3BNWTypeGroupLib%5B8%5D%3D%22https://www.google.com/search%3Fhl%3Den%26site%3Dimghp%26tbm%3Disch%26biw%3D1440%26bih%3D693%26q%3DputtingValue%22%3Bvar%20NWTypeShortGroupLib%3Dnew%20Array()%3BNWTypeShortGroupLib%5B0%5D%3D%22dictionary.references.com%22%3BNWTypeShortGroupLib%5B1%5D%3D%22thesaurus.com%22%3BNWTypeShortGroupLib%5B2%5D%3D%22thesaurus.com%22%3BNWTypeShortGroupLib%5B3%5D%3D%22youtube.com%22%3BNWTypeShortGroupLib%5B4%5D%3D%22youtube.com%22%3BNWTypeShortGroupLib%5B5%5D%3D%22site%3Dimghp%22%3BNWTypeShortGroupLib%5B6%5D%3D%22site%3Dimghp%22%3BNWTypeShortGroupLib%5B7%5D%3D%22site%3Dimghp%22%3BNWTypeShortGroupLib%5B8%5D%3D%22site%3Dimghp%22%3Bvar%20NWTypeSpaceLib%3Dnew%20Array()%3BNWTypeSpaceLib%5B0%5D%3D%22%20%22%3BNWTypeSpaceLib%5B1%5D%3D%22%20%22%3BNWTypeSpaceLib%5B2%5D%3D%22%20%22%3BNWTypeSpaceLib%5B3%5D%3D%22%2B%22%3BNWTypeSpaceLib%5B4%5D%3D%22%2B%22%3BNWTypeSpaceLib%5B5%5D%3D%22%2B%22%3BNWTypeSpaceLib%5B6%5D%3D%22%2B%22%3BNWTypeSpaceLib%5B7%5D%3D%22%2B%22%3BNWTypeSpaceLib%5B8%5D%3D%22%2B%22%3Bvar%20ENTypeLib%3Dnew%20Array()%3BENTypeLib%5B0%5D%3D%22google%22%3BENTypeLib%5B1%5D%3D%22youtube%22%3BENTypeLib%5B2%5D%3D%22duckduckgo%22%3BENTypeLib%5B3%5D%3D%22yahoo%22%3BENTypeLib%5B4%5D%3D%22yahoo!%22%3BENTypeLib%5B5%5D%3D%22maps%22%3BENTypeLib%5B6%5D%3D%22map%22%3BENTypeLib%5B7%5D%3D%22wikipedia%22%3BENTypeLib%5B8%5D%3D%22Wikipedia%22%3Bvar%20ENTypeGroupLib%3Dnew%20Array()%3BENTypeGroupLib%5B0%5D%3D%22https://www.google.cl/%23q%3DputtingValue%22%3BENTypeGroupLib%5B1%5D%3D%22http://www.youtube.com/results%3Fsearch_query%3DputtingValue%22%3BENTypeGroupLib%5B2%5D%3D%22https://duckduckgo.com/%3Fq%3DputtingValue%22%3BENTypeGroupLib%5B3%5D%3D%22http://search.yahoo.com/search%3B_ylt%3DA0oG7iikWTNSe3wAS30qk6B4%3Fp%3DputtingValue%22%3BENTypeGroupLib%5B4%5D%3D%22http://search.yahoo.com/search%3B_ylt%3DA0oG7iikWTNSe3wAS30qk6B4%3Fp%3DputtingValue%22%3BENTypeGroupLib%5B5%5D%3D%22https://www.google.com/maps%23!q%3DputtingValue%22%3BENTypeGroupLib%5B6%5D%3D%22https://www.google.com/maps%23!q%3DputtingValue%22%3BENTypeGroupLib%5B7%5D%3D%22http://en.wikipedia.org/wiki/puttingValue%22%3BENTypeGroupLib%5B8%5D%3D%22http://en.wikipedia.org/wiki/puttingValue%22%3Bvar%20ENTypeShortGroupLib%3Dnew%20Array()%3BENTypeShortGroupLib%5B0%5D%3D%22google.com%22%3BENTypeShortGroupLib%5B1%5D%3D%22youtube.com%22%3BENTypeShortGroupLib%5B2%5D%3D%22duckduckgo.com%22%3BENTypeShortGroupLib%5B3%5D%3D%22yahoo.com%22%3BENTypeShortGroupLib%5B4%5D%3D%22yahoo.com%22%3BENTypeShortGroupLib%5B5%5D%3D%22maps%23!%22%3BENTypeShortGroupLib%5B6%5D%3D%22maps%23!%22%3BENTypeShortGroupLib%5B7%5D%3D%22wikipedia.org%22%3BENTypeShortGroupLib%5B8%5D%3D%22wikipedia.org%22%3Bvar%20ENTypeSpaceLib%3Dnew%20Array()%3BENTypeSpaceLib%5B0%5D%3D%22%2B%22%3BENTypeSpaceLib%5B1%5D%3D%22%2B%22%3BENTypeSpaceLib%5B2%5D%3D%22%2B%22%3BENTypeSpaceLib%5B3%5D%3D%22%2B%22%3BENTypeSpaceLib%5B4%5D%3D%22%2B%22%3BENTypeSpaceLib%5B5%5D%3D%22%2B%22%3BENTypeSpaceLib%5B6%5D%3D%22%2B%22%3BENTypeSpaceLib%5B7%5D%3D%22_%22%3BENTypeSpaceLib%5B8%5D%3D%22_%22%3Bvar%20PTypeLib%3Dnew%20Array()%3BPTypeLib%5B0%5D%3D%22person%22%3BPTypeLib%5B1%5D%3D%22song%22%3BPTypeLib%5B2%5D%3D%22songs%22%3BPTypeLib%5B3%5D%3D%22place%22%3BPTypeLib%5B4%5D%3D%22places%22%3Bvar%20PTypeGroupLib%3Dnew%20Array()%3BPTypeGroupLib%5B0%5D%3D%22https://www.google.cl/%23q%3DputtingValue%22%3BPTypeGroupLib%5B1%5D%3D%22http://www.youtube.com/results%3Fsearch_query%3DputtingValue%22%3BPTypeGroupLib%5B2%5D%3D%22http://www.youtube.com/results%3Fsearch_query%3DputtingValue%22%3BPTypeGroupLib%5B3%5D%3D%22https://www.google.com/maps%23!q%3DputtingValue%22%3BPTypeGroupLib%5B4%5D%3D%22https://www.google.com/maps%23!q%3DputtingValue%22%3Bvar%20PTypeSpaceLib%3Dnew%20Array()%3BPTypeSpaceLib%5B0%5D%3D%22%2B%22%3BPTypeSpaceLib%5B1%5D%3D%22%2B%22%3BPTypeSpaceLib%5B2%5D%3D%22%2B%22%3BPTypeSpaceLib%5B3%5D%3D%22%2B%22%3BPTypeSpaceLib%5B4%5D%3D%22%2B%22%3Bvar%20KPTypeList%3Dnew%20Array()%3BKPTypeList%5B0%5D%3D%22word%22%3BKPTypeList%5B1%5D%3D%22words%22%3Bvar%20STypeGroupLib%3Dnew%20Array()%3BSTypeGroupLib%5B0%5D%3D%22http://translate.google.com/%23translatedFrom/translatedTo/puttingValue%22%3Bvar%20STypeShortLib%3Dnew%20Array()%3BSTypeShortLib%5B0%5D%3D%22translate.google.com%22%3Bvar%20STypeSpaceLib%3Dnew%20Array()%3BSTypeSpaceLib%5B0%5D%3D%22%20%22%3Bvar%20theLanguageList%3Dnew%20Array()%3BtheLanguageList%5B0%5D%3D%22english%22%3BtheLanguageList%5B1%5D%3D%22japanese%22%3BtheLanguageList%5B2%5D%3D%22spanish%22%3Bvar%20theLanguageRealList%3Dnew%20Array()%3BtheLanguageRealList%5B0%5D%3D%22en%22%3BtheLanguageRealList%5B1%5D%3D%22ja%22%3BtheLanguageRealList%5B2%5D%3D%22es%22%3BtheLanguageRealList%5B100%5D%3D%22auto%22%3BtheOriginalString%3Dprompt(%22Write%20something%20that%20makes%20sense%20in%20English.%5Cn%20It%20should%20start%20with%20the%20word%20%5C%22Search%5C%22.%5CnTo%20see%20examples,%20type%20in%20%5C%22show%20examples%5C%22%20and%20click%20OK.%5Cn%5CnSearch%22)%3Bif(theOriginalString!%3D%3Dnull%26%26theOriginalString!%3D%3D%22%22%26%26theOriginalString.toLowerCase()!%3D%22show%20examples%22)%7BtheOriginalString%3DtheOriginalString.replace(/%EF%BE%82%EF%BD%A5%3F/g,%27%27)%3BtheTestSplit%3DtheOriginalString.split(%22%20%22)%3Bif(theTestSplit%5B0%5D.toLowerCase()!%3D%22search%22)%7BtheOriginalString%3D%22search%20%22%2BtheOriginalString%3B%7DtheDividedString%3DtheOriginalString.split(%22%20%22)%3Bfor(outerCount%3D0%3BouterCount%3CNWTypeLib.length%3BouterCount%2B%2B)%7Bfor(count%3D0%3Bcount%3CtheDividedString.length%3Bcount%2B%2B)%7Bif(NWTypeLib%5BouterCount%5D%3D%3DtheDividedString%5Bcount%5D.toLowerCase()%26%26theDividedString%5Bcount%2B1%5D%3D%3D%22of%22)%7BtheQuestionType%3D%22NW%22%3BtheSearchingWebsite%3DNWTypeLib%5BouterCount%5D%3BtheDividedString%5Bcount%5D%3D%22Taken%22%3BtheDividedString%5Bcount%2B1%5D%3D%22Taken%22%3BtheLibNumber%3DouterCount%3B%7D%7D%7Dfor(outerCount%3D0%3BouterCount%3CENTypeLib.length%3BouterCount%2B%2B)%7Bfor(count%3D0%3Bcount%3CtheDividedString.length%3Bcount%2B%2B)%7Bif(ENTypeLib%5BouterCount%5D%3D%3DtheDividedString%5Bcount%5D.toLowerCase()%26%26theDividedString%5Bcount-1%5D%3D%3D%22on%22%7C%7CENTypeLib%5BouterCount%5D%3D%3DtheDividedString%5Bcount%5D.toLowerCase()%26%26theDividedString%5Bcount-1%5D%3D%3D%22in%22)%7Bif(theQuestionType%3D%3D%22NW%22)%7BtheDoubleFlag%3Dtrue%3B%7Delse%7BtheQuestionType%3D%22EN%22%3BtheDoubleFlag%3Dfalse%3B%7DtheSearchingWebsite%3DENTypeLib%5BouterCount%5D%3BtheDividedString%5Bcount%5D%3D%22Taken%22%3BtheDividedString%5Bcount-1%5D%3D%22Taken%22%3BtheLibNumber%3DouterCount%3B%7Dif(ENTypeLib%5BouterCount%5D%3D%3DtheDividedString%5Bcount%5D.toLowerCase()%26%26theDividedString%5Bcount-1%5D%3D%3D%22the%22%26%26theDividedString%5Bcount-2%5D%3D%3D%22on%22%7C%7CENTypeLib%5BouterCount%5D%3D%3DtheDividedString%5Bcount%5D.toLowerCase()%26%26theDividedString%5Bcount-1%5D%3D%3D%22the%22%26%26theDividedString%5Bcount-2%5D%3D%3D%22in%22)%7Bif(theQuestionType%3D%3D%22NW%22)%7BtheDoubleFlag%3Dtrue%3B%7Delse%7BtheQuestionType%3D%22EN%22%3BtheDoubleFlag%3Dfalse%3B%7DtheSearchingWebsite%3DENTypeLib%5BouterCount%5D%3BtheDividedString%5Bcount%5D%3D%22Taken%22%3BtheDividedString%5Bcount-1%5D%3D%22Taken%22%3BtheDividedString%5Bcount-2%5D%3D%22Taken%22%3BtheLibNumber%3DouterCount%3B%7D%7D%7Dif(theDoubleFlag%3D%3D%3Dtrue)%7BtheQuestionType%3D%22NW%22%3B%7Dfor(count%3D0%3Bcount%3CtheDividedString.length%3Bcount%2B%2B)%7Bif(theDividedString%5Bcount%5D.toLowerCase()%3D%3D%22for%22%26%26theDividedString%5Bcount-1%5D.toLowerCase()%3D%3D%22search%22%7C%7CtheDividedString%5Bcount%5D.toLowerCase()%3D%3D%22about%22%26%26theDividedString%5Bcount-1%5D.toLowerCase()%3D%3D%22search%22)%7BtheDividedString%5Bcount%5D%3D%22Taken%22%3B%7D%7DtheDividedString%5B0%5D%3D%22Taken%22%3Bfor(outerCount%3D0%3BouterCount%3CPTypeLib.length%3BouterCount%2B%2B)%7Bfor(count%3D0%3Bcount%3CtheDividedString.length%3Bcount%2B%2B)%7Bif(PTypeLib%5BouterCount%5D%3D%3DtheDividedString%5Bcount%5D.toLowerCase()%26%26theDividedString%5Bcount-1%5D.toLowerCase()%3D%3D%22the%22%26%26theDividedString%5Bcount%2B1%5D!%3D%22theSearchingWord%22)%7BtheSearchingWebsite%3DPTypeLib%5BouterCount%5D%3BtheQuestionType%3D%22P%22%3BtheDividedString%5Bcount%5D%3D%22Taken%22%3BtheDividedString%5Bcount-1%5D%3D%22Taken%22%3BtheLibNumber%3DouterCount%3B%7D%7D%7Dfor(outerCount%3D0%3BouterCount%3CKPTypeList.length%3BouterCount%2B%2B)%7Bfor(count%3D0%3Bcount%3CtheDividedString.length%3Bcount%2B%2B)%7Bif(theDividedString%5Bcount%5D%3D%3DKPTypeList%5BouterCount%5D%26%26theDividedString%5Bcount-1%5D%3D%3D%22the%22)%7BtheDividedString%5Bcount%5D%3D%22Taken%22%3BtheDividedString%5Bcount-1%5D%3D%22Taken%22%3B%7D%7D%7Dfor(outerCount%3D0%3BouterCount%3CtheDividedString.length%3BouterCount%2B%2B)%7Bfor(count%3D0%3Bcount%3CtheLanguageList.length%3Bcount%2B%2B)%7Bif(theDividedString%5BouterCount%5D%3D%3DtheLanguageList%5Bcount%5D%26%26theDividedString%5BouterCount-1%5D%3D%3D%22in%22)%7BtheQuestionType%3D%22S%22%3BtheLibNumber%3D0%3BtranslatedTo%3DtheLanguageList%5Bcount%5D%3BtranslatedToNumber%3Dcount%3BtheDividedString%5BouterCount%5D%3D%22Taken%22%3BtheDividedString%5BouterCount-1%5D%3D%22Taken%22%3B%7D%7Dif(translatedFromNumber%3D%3D%3D0)%7BtranslatedFromNumber%3D100%3B%7D%7Dfor(count%3D0%3Bcount%3CtheDividedString.length%3Bcount%2B%2B)%7Bif(theLibNumber%3D%3D-1)%7BcurrentURL%3Ddocument.URL%3Bfor(innerCount%3D0%3BinnerCount%3CNWTypeShortGroupLib.length%3BinnerCount%2B%2B)%7Bif(currentURL.indexOf(NWTypeShortGroupLib%5BinnerCount%5D)!%3D%3D-1)%7BtheLibNumber%3DinnerCount%3BtheQuestionType%3D%22NW%22%3B%7Dif(currentURL.indexOf(ENTypeShortGroupLib%5BinnerCount%5D)!%3D%3D-1)%7BtheLibNumber%3DinnerCount%3BtheQuestionType%3D%22EN%22%3B%7D%7D%7D%7Dif(theLibNumber%3D%3D-1)%7BtheLibNumber%3D0%3BtheQuestionType%3D%22EN%22%3B%7DinnerCount%3D0%3Bfor(count%3D0%3Bcount%3CtheDividedString.length%3Bcount%2B%2B)%7Bif(theDividedString%5Bcount%5D!%3D%22Taken%22)%7BtheSearchingWord%5BinnerCount%5D%3DtheDividedString%5Bcount%5D%3BinnerCount%2B%2B%3B%7D%7Dfor(count%3D0%3Bcount%3CtheSearchingWord.length%3Bcount%2B%2B)%7BputtingValue%3DputtingValue%2BtheSearchingWord%5Bcount%5D%3Bif(count%3CtheSearchingWord.length-1)%7Bif(theQuestionType%3D%3D%22NW%22)%7BputtingValue%3DputtingValue%2BNWTypeSpaceLib%5BtheLibNumber%5D%3B%7Dif(theQuestionType%3D%3D%22EN%22)%7BputtingValue%3DputtingValue%2BENTypeSpaceLib%5BtheLibNumber%5D%3B%7Dif(theQuestionType%3D%3D%22P%22)%7BputtingValue%3DputtingValue%2BPTypeSpaceLib%5BtheLibNumber%5D%3B%7Dif(theQuestionType%3D%3D%22S%22)%7BputtingValue%3DputtingValue%2BSTypeSpaceLib%5BtheLibNumber%5D%3B%7D%7D%7Dif(theQuestionType%3D%3D%22NW%22)%7BtheSearchingURL%3DNWTypeGroupLib%5BtheLibNumber%5D%3B%7Dif(theQuestionType%3D%3D%22EN%22)%7BtheSearchingURL%3DENTypeGroupLib%5BtheLibNumber%5D%3B%7Dif(theQuestionType%3D%3D%22P%22)%7BtheSearchingURL%3DPTypeGroupLib%5BtheLibNumber%5D%3B%7Dif(theQuestionType%3D%3D%22S%22)%7BtheSearchingURL%3DSTypeGroupLib%5BtheLibNumber%5D%3B%7DtheSearchingURL%3DtheSearchingURL.replace(%22puttingValue%22,puttingValue)%3Bif(theQuestionType%3D%3D%22S%22%26%26theLibNumber%3D%3D%3D0)%7BtheSearchingURL%3DtheSearchingURL.replace(%22translatedFrom%22,theLanguageRealList%5BtranslatedFromNumber%5D)%3BtheSearchingURL%3DtheSearchingURL.replace(%22translatedTo%22,theLanguageRealList%5BtranslatedToNumber%5D)%3B%7Dwindow.open(theSearchingURL)%3B%7Dif(theOriginalString.toLowerCase()%3D%3D%22show%20examples%22)%7Balert(%22Search%20about%20steve%20jobs%20on%20the%20wikipedia%5CnSearch%20videos%20of%20the%20song%20Hello%20Goodbye%20by%20beatles%5CnSearch%20civilization%20in%20Spanish%5CnSearch%20the%20definition%20of%20the%20word%20television%5CnSearch%20synonyms%20of%20sleepy%5CnSearch%20pictures%20of%20cute%20cats%5CnSearch%20how%20to%20quilt%20in%20YouTube%5CnSearch%20New%20York%20City%20on%20the%20map%5CnSearch%20gato%20in%20English%5CnSearch%20hello%20kitty%20on%20yahoo!%5Cn%5Cn%20%20and%20much%20much%20more.%22)%3B%7D%7D)()%3B"
+		id="realBkl">Brilliarcher</a>
+
+		<h4>What's this?</h4>
+
+		<p id="desc">You know the browser competition, don't you? There are
+		millions of browser on the internet. They are fighting for not only
+		features, but also for speed. Many software companies are fighting to
+		speed up the URL loading by like 0.1 seconds.<br>
+		<br>
+		The thing is, the search engines aren't smart enough. For example, if
+		you wanted to see the definition of the word "Palaeolithic", you had to
+		search "definition palaeolithic" on google, wait for the result to come
+		up, and than click one of the results, wait for it to load, and finally
+		you could see the definition. When you wanted to see a picture of cute
+		cats, you had to type in "google.com" in the address bar, wait for it
+		to load, than click "images", wait for it to load, than type in "cute
+		cats". Don't you agree?<br>
+		<br>
+		Now, with this bookmarklet, everything was changed. This tool
+		understands human language, so you don't have to memorise any commands.
+		What you have to do is open the bookmarklet, type in a sentence that
+		starts with "Search" (e.x. Search pictures of cute cats, Search
+		palaeolithic on the dictionary), press enter, and bum! The will show up
+		as you wanted.</p>
+
+		<h4>How to use</h4>
+
+		<p id="desc">Installing this bookmarklet is so easy.
+		To install it, you can just drag the button at the top of the page to
+		your bookmarklet bar. If you are on a tablet or a phone, you can just
+		click the link "mobile" and follow the direction there.<br>
+		<br>
+		Using it is actually easier than installing. What you need to do is to
+		click the Brilliarcher that you just installed, and type type in things
+		that starts with the word "Search". For example, you can type things
+		like:<br></p>
+
+		<ul>
+			<li><span>Search how to say hello in Spanish</span></li>
+
+			<li><span>Search New York City on the map</span></li>
+
+			<li><span>Search Steve Jobs on wikipedia</span></li>
+
+			<li><span>Search the meaning of civilisation</span></li>
+
+			<li><span>Search synonyms of palaeolithic</span></li>
+
+			<li><span>Search how to download iOS 7 on YouTube</span></li>
+		</ul>
+
+		<p id="desc">and the system will jump into the site that you wanted.
+		Don't be afraid to use other phrases. Just try it, and it should work.
+		If it does't, let me know via <a href=
+		"a787fan@gmail.com">a787fan@gmail.com</a>.</p>
+		<h4>Contact/Help/Other</h4>
+		<p id="desc">If you have any questions, please send an email to  <a href="a787fan@gmail.com">a787fan@gmail.com</a>.<br />By the way, things that you type is not sent to me or anyone in any way, so don't worry about privacy. If you want to help the system get better, please send a note to me and I'll think about it. I do this at freetime, so the development could be slow, but I work on it everyday to add new features and other things. I have a blog that is in Japanese, so please visit (if you can read japanese): <a href="http://santiago-dayori.blogspot.com">here</a>. I WILL share the code if you ask me, so please do not use the code for any reason without permission. 
+	</div>
+</body>
+</html>

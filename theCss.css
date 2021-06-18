@@ -1,0 +1,148 @@
+#header-wrap {
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    height: 100px;
+    line-height:100px;
+    top: 0;
+    width: 100%;
+   margin-left:-8px;
+    z-index: 100;
+    background-color:#61c9d4;
+    padding:10px;
+    margin-top:-30px;
+    border:none;
+}
+#subtitle-wrap {
+    position:relative;
+    height: 50px;
+    top: 70px;
+    width: 100%;
+   margin-left:-8px;
+   background-color:#61c9d4;
+   padding:10px;
+   font-size:25px;
+    color:#fff;
+    font-family: 'Raleway', serif;
+    font-weight:100;
+    text-align:center;
+}
+
+#container{ 
+    margin-top: 121px;
+    width:100%;
+}
+h1 {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight:100;
+    font-size: 50px;
+    line-height: 70px;
+    color:#fff;
+    text-align:center;
+}
+ 
+#desc {
+    position:relative;
+    font-family: "Lato", serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align:left;
+    width:50%;
+    left:50%;
+    margin-left:-25%;
+    font-weight: 300; 
+}
+
+#add{
+        font-family: "Lato", serif;
+        text-align:center;
+        position:relative;
+          font-size: 16px;
+}
+
+button{
+    margin:auto;
+}
+#realBkl{
+  position:relative;
+  text-align:center;
+  width:150px;
+  font-size:21px;
+  font-weight:bold;
+  display:block;
+  text-decoration:none;
+  padding:12px 0 8px 0;
+  border-radius:3px;
+  margin-left:-25%;
+  left:50%;
+  background:#f88;
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight:300;
+  border: 1px solid #f66;
+}
+#realBkl:hover{
+ background:#f99;
+}
+#realBkl:active{
+ background:#f77;
+}
+h4 {
+  position: relative;
+  display:block;
+  width:300px;
+  color: #111;
+  font-size: 20px;
+  line-height: 1;
+  margin: 30px 0 0 0;
+  left:50%;
+  margin-left:-28%;
+  padding: 14px 5px 10px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+}
+h4:before {
+  content: "";
+  position: absolute;
+  background: #f44;
+  top: 0;
+  left: -5px;
+  height: 12px;
+  width: 12px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+h4:after {
+  content: "";
+  position: absolute;
+  background:#f55;
+  top: 15px;
+  left: -10px;
+  height: 8px;
+  width: 8px;
+  -moz-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+ul{
+  color:#61c9d4;
+  position:relative;
+  font-family: "Lato", serif;
+    font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align:left;
+  width:50%;
+  left:50%;
+  margin-left:-25%; 
+  font-weight: 300;
+}
+
+ul span{
+  color:#000;
+}
